@@ -1,0 +1,59 @@
+.contacts {
+  position: relative;
+  padding-bottom: 4rem;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: start;
+    align-items: center;
+    padding-top: 2rem;
+
+    h1 {
+      color: #212934;
+      width: 100%;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .row {
+      margin: 0;
+
+      .col-12 {
+        padding: 2rem;
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+
+          li {
+            color: #212934;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+             a, a:focus {
+               color: #212934;
+             }
+
+            i {
+              margin-right: 1rem;
+              font-size: 2rem;
+              color: rgba(233, 78, 27, 1);
+            }
+          }
+        }
+
+
+
+        .contacts-card {
+          border-radius: 1rem;
+        }
+      }
+    }
+  }
+}

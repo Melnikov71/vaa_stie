@@ -1,0 +1,42 @@
+.banner {
+  height: 85vh;
+
+  background-image: linear-gradient(180deg, rgba(233, 78, 27, .6) 0%, rgba(252, 234, 16, .9)), url(../img/backgrounds/banner.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  .banner_logo-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .divider {
+      width: 0;
+      height: 2px;
+      background-color: white;
+      animation: 1s divider-show 1s ease-in-out forwards;
+      margin: 1rem 0 1rem 0;
+
+      @keyframes divider-show {
+        0% {
+          width: 0;
+        }
+
+        100% {
+          width: 100%;
+        }
+      }
+    }
+
+    h1 {
+      width: 100%;
+      color: white;
+      font-size: 2rem;
+      font-weight: 300;
+    }
+  }
+}
